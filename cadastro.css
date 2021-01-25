@@ -1,0 +1,12 @@
+fieldset{
+    background-color: rgba(71, 44, 172, 0.4);
+    border-style: double;
+}
+
+
+fieldset label { /*alinhar os inputs do formulario*/
+    display: block;
+    width: 10%;
+    float:left;
+    align-items: center;
+}

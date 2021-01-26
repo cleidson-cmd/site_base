@@ -4,9 +4,27 @@ fieldset{
 }
 
 
-fieldset label { /*alinhar os inputs do formulario*/
+fieldset label{ /*alinhar os inputs do formulario*/
     display: block;
-    width: 10%;
-    float:left;
-    align-items: center;
+    width: 30%;
+    float:left; 
+}
+
+
+body{
+    justify-content: center;
+    margin-left: 50;
+    margin-top: 5;
+}
+
+fieldset{
+    border: 2px solid;
+    border-radius: 10px;
+    width: 40%;
+}
+
+textarea label{
+    border: 2px solid;
+    border-radius: 10px;
+    width: 40%;
 }

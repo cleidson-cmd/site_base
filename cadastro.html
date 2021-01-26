@@ -11,7 +11,7 @@
     <form action="">
         
         <fieldset id = "nomes">
-        <strong><p>cadastre-se:</p></strong>
+        <legend><strong><p>cadastre-se:</p></strong></legend>
         
             <div class="no">
                 <label for="nome">Nome</label>
@@ -30,10 +30,10 @@
 
         </fieldset>
 
-        <br>
+        
 
         <fieldset id ="sexo1">
-            <strong><p>Sexo:</p></strong>
+            <legend><strong><p>Sexo:</p></strong></legend>
         <div>
             <label for="fem">Feminino</label>
             <input type="radio" name="sexo">
@@ -46,10 +46,10 @@
 
         </fieldset>
 
-        <br>
+    
 
         <fieldset id="select">
-            <strong><p>Status:</p></strong>
+            <legend><strong><p>Status:</p></strong></legend>
 
             <div>
                 <label for="1">maior de 18</label>
@@ -71,7 +71,7 @@
                 <input type="checkbox" name="4">
             </div>
 
-            <br>
+        
 
             <label for="selec" aria-required="true"><strong>Selecione</strong></label>
             <select name="selec">
@@ -85,13 +85,14 @@
 
 
         </fieldset>
+        
         <br>
-
-        <label for="texto"><strong>Conte-me um pouco de você:</strong></label>
+        <fieldset>
+        <label for="texto"> <legend><strong>Conte-me um pouco de você:</strong></legend></label>
         <textarea name="texto" cols="40" rows="10"></textarea>
         <br>
         <button type="submit" name="botao">Concluir</button>
-
+        </fieldset>
 
     </form>
 </body>
